@@ -390,9 +390,55 @@ html, body {
 	color:white;
 	padding: 30px;
 	letter-spacing: 1px;
-	background-color: #242329;
+	background-color: #14181b;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.40), 0 6px 20px 0 rgba(0,0,0,0.40);
 }
+
+#s2page3 {
+	display:flex;
+	flex:2 auto;
+	justify-content: center;
+	align-items: flex-start;
+	text-align: justify;
+	font-family: 'Arial';
+	font-size:3vmax;
+	font-weight:normal;
+	color:#353436;
+	padding: 30px;
+	letter-spacing: 1px;
+}
+
+/* BUTTONS */
+#exercice1 {
+	position: absolute;
+	top: 300px;
+	left: 575px;
+	width: 90px;
+	height: 50px;
+	background-color: white;
+	color: white;
+	border: 5px solid #14181b;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+	a:visited {
+    color: black;
+}
+
+#exercice2 {
+	position: absolute;
+	top: 370px;
+	left: 575px;
+	width: 90px;
+	height: 50px;
+	background-color: white;
+	color: white;
+	border: 5px solid #14181b;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+	a:visited {
+    color: black;
+}
+
 
 #s1page4 h1 {
 	display:flex;
